@@ -6,9 +6,11 @@ zinfotools.NET
 
 Project type abbreviation :
 
-- Wform: WINFORMS.
-- Wpf: Windows Presentation Foundation.
-- Wapp: Windows Store App.
+- Net??: Console.
+- Portable??: Console (Use Portable Class Library).
+- Wform??: WINFORMS.
+- Wpf??: Windows Presentation Foundation.
+- Wapp??: Windows Store App.
 
 
 ## See also
