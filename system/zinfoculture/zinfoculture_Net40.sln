@@ -1,12 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2010
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "zinfoculture", "zinfoculture4.csproj", "{A8C38EA9-A838-4523-899C-26A1E9EA7C97}"
-	ProjectSection(ProjectDependencies) = postProject
-		{B1E5DB93-5A0E-4D61-A69B-42786A0D259A} = {B1E5DB93-5A0E-4D61-A69B-42786A0D259A}
-	EndProjectSection
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "zinfoculture_Net40", "zinfoculture_Net40.csproj", "{A8C38EA9-A838-4523-899C-26A1E9EA7C97}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "zyllibcs", "..\..\..\zyllibcs\zyllibcs4.csproj", "{B1E5DB93-5A0E-4D61-A69B-42786A0D259A}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ZylLib.Net40", "..\..\..\ZylLib.NET\Source\ZylLib\ZylLib.Net40.csproj", "{0A57C19C-16BA-4D89-AD09-9F75419F6923}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -18,10 +15,10 @@ Global
 		{A8C38EA9-A838-4523-899C-26A1E9EA7C97}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A8C38EA9-A838-4523-899C-26A1E9EA7C97}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A8C38EA9-A838-4523-899C-26A1E9EA7C97}.Release|Any CPU.Build.0 = Release|Any CPU
-		{B1E5DB93-5A0E-4D61-A69B-42786A0D259A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{B1E5DB93-5A0E-4D61-A69B-42786A0D259A}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{B1E5DB93-5A0E-4D61-A69B-42786A0D259A}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{B1E5DB93-5A0E-4D61-A69B-42786A0D259A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0A57C19C-16BA-4D89-AD09-9F75419F6923}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0A57C19C-16BA-4D89-AD09-9F75419F6923}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0A57C19C-16BA-4D89-AD09-9F75419F6923}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0A57C19C-16BA-4D89-AD09-9F75419F6923}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
