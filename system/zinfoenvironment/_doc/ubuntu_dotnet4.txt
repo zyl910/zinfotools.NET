@@ -1,0 +1,396 @@
+﻿# Linux dubt-VirtualBox 3.2.0-54-generic #82-Ubuntu SMP Tue Sep 10 20:08:42 UTC 2013 x86_64 x86_64 x86_64 GNU/Linux
+
+# zinfoenvironment
+Test Dictionary:
+	# <System.Collections.Generic.Dictionary`2[[System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089],[System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]>
+	Count:	3	# 0x3
+	Comparer:	System.Collections.Generic.InternalStringComparer	# <InternalStringComparer>
+	[0]:	[a, abc]	# <KeyValuePair`2>
+		# <System.Collections.Generic.KeyValuePair`2[[System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089],[System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]>
+		Key:	a	# Length=1 (0x1)
+		Value:	abc	# Length=3 (0x3)
+	[1]:	[b, base]	# <KeyValuePair`2>
+		# <System.Collections.Generic.KeyValuePair`2[[System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089],[System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]>
+		Key:	b	# Length=1 (0x1)
+		Value:	base	# Length=4 (0x4)
+	[2]:	[ver, 1.0.5048.37633]	# <KeyValuePair`2>
+		# <System.Collections.Generic.KeyValuePair`2[[System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089],[System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]>
+		Key:	ver	# Length=3 (0x3)
+		Value:	1.0.5048.37633	# <Version>
+			# <System.Version>
+			Build:	5048	# 0x13B8
+			Major:	1	# 0x1
+			Minor:	0	# 0x0
+			Revision:	37633	# 0x9301
+			MajorRevision:	0	# 0x0
+			MinorRevision:	-27903	# 0x9301
+Environment:
+	# <System.Environment>
+	GetEnvironmentVariables():
+		COMPIZ_CONFIG_PROFILE:	ubuntu
+		DBUS_SESSION_BUS_ADDRESS:	unix:abstract=/tmp/dbus-Fz5YUb1UrS,guid=58ac9905d5f3c13c3b1f76b500000036
+		DEFAULTS_PATH:	/usr/share/gconf/ubuntu.default.path
+		DESKTOP_SESSION:	ubuntu
+		DISPLAY:	:0.0
+		GDMSESSION:	ubuntu
+		GIO_LAUNCHED_DESKTOP_FILE:	/usr/share/applications/mono-runtime.desktop
+		GIO_LAUNCHED_DESKTOP_FILE_PID:	2148
+		GNOME_DESKTOP_SESSION_ID:	this-is-deprecated
+		GNOME_KEYRING_CONTROL:	/tmp/keyring-54u3nJ
+		GNOME_KEYRING_PID:	1590
+		GPG_AGENT_INFO:	/tmp/keyring-54u3nJ/gpg:0:1
+		GTK_IM_MODULE:	ibus
+		HOME:	/home/dubt
+		LANG:	zh_CN.UTF-8
+		LANGUAGE:	zh_CN:
+		LOGNAME:	dubt
+		MANDATORY_PATH:	/usr/share/gconf/ubuntu.mandatory.path
+		PATH:	/usr/lib/lightdm/lightdm:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games
+		PWD:	/home/dubt
+		QT_IM_MODULE:	xim
+		SESSION_MANAGER:	local/dubt-VirtualBox:@/tmp/.ICE-unix/1601,unix/dubt-VirtualBox:/tmp/.ICE-unix/1601
+		SHELL:	/bin/bash
+		SSH_AGENT_PID:	1671
+		SSH_AUTH_SOCK:	/tmp/keyring-54u3nJ/ssh
+		UBUNTU_MENUPROXY:	libappmenu.so
+		USER:	dubt
+		XAUTHORITY:	/home/dubt/.Xauthority
+		XDG_CONFIG_DIRS:	/etc/xdg/xdg-ubuntu:/etc/xdg
+		XDG_CURRENT_DESKTOP:	Unity
+		XDG_DATA_DIRS:	/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/
+		XDG_SEAT_PATH:	/org/freedesktop/DisplayManager/Seat0
+		XDG_SESSION_COOKIE:	48c89999fbd41662ccd50bd000000008-1382878181.525654-921617442
+		XDG_SESSION_PATH:	/org/freedesktop/DisplayManager/Session0
+		XMODIFIERS:	@im=ibus
+	GetFolderPath():
+		0(0x00000000, Desktop):	/home/dubt/桌面
+		2(0x00000002, Programs):	
+		5(0x00000005, Personal):	/home/dubt
+		5(0x00000005, Personal):	/home/dubt
+		6(0x00000006, Favorites):	
+		7(0x00000007, Startup):	
+		8(0x00000008, Recent):	
+		9(0x00000009, SendTo):	
+		11(0x0000000B, StartMenu):	
+		13(0x0000000D, MyMusic):	/home/dubt/音乐
+		14(0x0000000E, MyVideos):	/home/dubt/视频
+		16(0x00000010, DesktopDirectory):	/home/dubt/桌面
+		17(0x00000011, MyComputer):	
+		19(0x00000013, NetworkShortcuts):	
+		20(0x00000014, Fonts):	/home/dubt/.fonts
+		21(0x00000015, Templates):	/home/dubt/模板
+		22(0x00000016, CommonStartMenu):	
+		23(0x00000017, CommonPrograms):	
+		24(0x00000018, CommonStartup):	
+		25(0x00000019, CommonDesktopDirectory):	
+		26(0x0000001A, ApplicationData):	/home/dubt/.config
+		27(0x0000001B, PrinterShortcuts):	
+		28(0x0000001C, LocalApplicationData):	/home/dubt/.local/share
+		32(0x00000020, InternetCache):	
+		33(0x00000021, Cookies):	
+		34(0x00000022, History):	
+		35(0x00000023, CommonApplicationData):	/usr/share
+		36(0x00000024, Windows):	
+		37(0x00000025, System):	
+		38(0x00000026, ProgramFiles):	
+		39(0x00000027, MyPictures):	/home/dubt/图片
+		40(0x00000028, UserProfile):	
+		41(0x00000029, SystemX86):	
+		42(0x0000002A, ProgramFilesX86):	
+		43(0x0000002B, CommonProgramFiles):	
+		44(0x0000002C, CommonProgramFilesX86):	
+		45(0x0000002D, CommonTemplates):	/usr/share/templates
+		46(0x0000002E, CommonDocuments):	
+		47(0x0000002F, CommonAdminTools):	
+		48(0x00000030, AdminTools):	
+		53(0x00000035, CommonMusic):	
+		54(0x00000036, CommonPictures):	
+		55(0x00000037, CommonVideos):	
+		56(0x00000038, Resources):	
+		57(0x00000039, LocalizedResources):	
+		58(0x0000003A, CommonOemLinks):	
+		59(0x0000003B, CDBurning):	
+	GetLogicalDrives():	/	# Length=1 (0x1)
+	CommandLine:	/media/sf_he/zylKanbox/MyCode/lib/zyllibcs/zinfotools/zinfotoolsf/bin/Debug/zinfotoolsf.exe	# Length=91 (0x5B)
+	CurrentDirectory:	/home/dubt	# Length=10 (0xA)
+	ExitCode:	0	# 0x0
+	HasShutdownStarted:	False	# <Boolean>
+	MachineName:	dubt-VirtualBox	# Length=15 (0xF)
+	NewLine:	"\n"	# Length=1 (0x1)
+	OSVersion:	Unix 3.2.0.55	# <OperatingSystem>
+		# <System.OperatingSystem>
+		Platform:	Unix	# 0x00000004, 4, <PlatformID>
+		Version:	3.2.0.55	# <Version>
+			# <System.Version>
+			Build:	0	# 0x0
+			Major:	3	# 0x3
+			Minor:	2	# 0x2
+			Revision:	55	# 0x37
+			MajorRevision:	0	# 0x0
+			MinorRevision:	55	# 0x37
+		ServicePack:		# Length=0 (0x0)
+		VersionString:	Unix 3.2.0.55	# Length=13 (0xD)
+	StackTrace:	"   at System.Environment.get_StackTrace()\n   at System.Reflection.MonoProperty.StaticGetterAdapterFrame(System.Reflection.StaticGetter`1 getter, System.Object obj)\n   at System.Reflection.MonoProperty.GetValue(System.Object obj, System.Object[] index)\n   at zyllibcs.text.IndentedWriterUtil.ForEachMember(IIndentedWriter iw, System.Object owner, System.Type tp, IndentedWriterMemberOptions options, System.EventHandler`1 handle, zyllibcs.text.IndentedWriterContext context)\n   at zinfoenvironment.MyInfo.outl_Environment(IIndentedWriter iw, System.Object obj, zyllibcs.text.IndentedWriterContext context)\n   at zinfoenvironment.MyInfo.outl_main(IIndentedWriter iw, System.Object obj, zyllibcs.text.IndentedWriterContext context)\n   at zinfotoolsf.FrmZInfo.cboMode_SelectedIndexChanged(System.Object sender, System.EventArgs e)\n   at System.Windows.Forms.ComboBox.OnSelectedIndexChanged(System.EventArgs e)\n   at System.Windows.Forms.ComboBox.SetSelectedIndex(Int32 value, Boolean supressAutoScroll)\n   at System.Windows.Forms.ComboBox.set_SelectedIndex(Int32 value)\n   at zinfotoolsf.FrmZInfo.FrmZInfo_Load(System.Object sender, System.EventArgs e)\n   at System.Windows.Forms.Form.OnLoad(System.EventArgs e)\n   at System.Windows.Forms.Form.OnLoadInternal(System.EventArgs e)\n   at System.Windows.Forms.Form.OnCreateControl()\n   at System.Windows.Forms.Control.CreateControl()\n   at System.Windows.Forms.Control.WmShowWindow(Message ByRef m)\n   at System.Windows.Forms.Control.WndProc(Message ByRef m)\n   at System.Windows.Forms.ScrollableControl.WndProc(Message ByRef m)\n   at System.Windows.Forms.ContainerControl.WndProc(Message ByRef m)\n   at System.Windows.Forms.Form.WndProc(Message ByRef m)\n   at System.Windows.Forms.Control+ControlWindowTarget.OnMessage(Message ByRef m)\n   at System.Windows.Forms.Control+ControlNativeWindow.WndProc(Message ByRef m)\n   at System.Windows.Forms.NativeWindow.WndProc(IntPtr hWnd, Msg msg, IntPtr wParam, IntPtr lParam)\n   at System.Windows.Forms.XplatUIX11.SendMessage(IntPtr hwnd, Msg message, IntPtr wParam, IntPtr lParam)\n   at System.Windows.Forms.XplatUIX11.MapWindow(System.Windows.Forms.Hwnd hwnd, WindowType windows)\n   at System.Windows.Forms.XplatUIX11.CreateWindow(System.Windows.Forms.CreateParams cp)\n   at System.Windows.Forms.XplatUI.CreateWindow(System.Windows.Forms.CreateParams cp)\n   at System.Windows.Forms.NativeWindow.CreateHandle(System.Windows.Forms.CreateParams cp)\n   at System.Windows.Forms.Control.CreateHandle()\n   at System.Windows.Forms.Form.CreateHandle()\n   at System.Windows.Forms.Control.CreateControl()\n   at System.Windows.Forms.Control.SetVisibleCore(Boolean value)\n   at System.Windows.Forms.Form.SetVisibleCore(Boolean value)\n   at System.Windows.Forms.Control.set_Visible(Boolean value)\n   at System.Windows.Forms.Application.RunLoop(Boolean Modal, System.Windows.Forms.ApplicationContext context)\n   at System.Windows.Forms.Application.Run(System.Windows.Forms.ApplicationContext context)\n   at System.Windows.Forms.Application.Run(System.Windows.Forms.Form mainForm)\n   at zinfotoolsf.Program.Main()"	# Length=3082 (0xC0A)
+	SystemDirectory:		# Length=0 (0x0)
+	TickCount:	148955	# 0x245DB
+	UserDomainName:	dubt-VirtualBox	# Length=15 (0xF)
+	UserInteractive:	False	# <Boolean>
+	UserName:	dubt	# Length=4 (0x4)
+	Version:	4.0.30319.1	# <Version>
+		# <System.Version>
+		Build:	30319	# 0x766F
+		Major:	4	# 0x4
+		Minor:	0	# 0x0
+		Revision:	1	# 0x1
+		MajorRevision:	0	# 0x0
+		MinorRevision:	1	# 0x1
+	WorkingSet:	0	# 0x0
+	Is64BitOperatingSystem:	True	# <Boolean>
+	Is64BitProcess:	True	# <Boolean>
+	SystemPageSize:	4096	# 0x1000
+	ProcessorCount:	2	# 0x2
+Application AssemblyName:
+	# <System.Reflection.AssemblyName>
+	ProcessorArchitecture:	None	# 0x00000000, 0, <ProcessorArchitecture>
+	Name:	zinfotoolsf	# Length=11 (0xB)
+	CodeBase:	file:///media/sf_he/zylKanbox/MyCode/lib/zyllibcs/zinfotools/zinfotoolsf/bin/Debug/zinfotoolsf.exe	# Length=98 (0x62)
+	EscapedCodeBase:	file:///media/sf_he/zylKanbox/MyCode/lib/zyllibcs/zinfotools/zinfotoolsf/bin/Debug/zinfotoolsf.exe	# Length=98 (0x62)
+	CultureInfo:		# <CultureInfo>
+		# <System.Globalization.CultureInfo>
+		CultureTypes:	AllCultures	# 0x00000007, 7, <CultureTypes>
+		IetfLanguageTag:		# Length=0 (0x0)
+		KeyboardLayoutId:	1151	# 0x47F
+		LCID:	127	# 0x7F
+		Name:		# Length=0 (0x0)
+		NativeName:	Invariant Language (Invariant Country)	# Length=38 (0x26)
+		Calendar:	System.Globalization.GregorianCalendar	# <GregorianCalendar>
+			# <System.Globalization.GregorianCalendar>
+			Eras:	System.Int32[]	# Length=1 (0x1)
+				# <System.Int32[]>
+				[0]:	1	# 0x1
+			TwoDigitYearMax:	2029	# 0x7ED
+			CalendarType:	Localized	# 0x00000001, 1, <GregorianCalendarTypes>
+			AlgorithmType:	SolarCalendar	# 0x00000001, 1, <CalendarAlgorithmType>
+			MinSupportedDateTime:	01-1-1 上12时00分00秒	# <DateTime>
+			MaxSupportedDateTime:	99-12-31 上11时59分59秒	# <DateTime>
+			IsReadOnly:	False	# <Boolean>
+		OptionalCalendars:	System.Globalization.Calendar[]	# Length=1 (0x1)
+			# <System.Globalization.Calendar[]>
+			[0]:	System.Globalization.GregorianCalendar	# <GregorianCalendar>
+				# <System.Globalization.GregorianCalendar>
+				Eras:	System.Int32[]	# Length=1 (0x1)
+					# <System.Int32[]>
+					[0]:	1	# 0x1
+				TwoDigitYearMax:	2029	# 0x7ED
+				CalendarType:	Localized	# 0x00000001, 1, <GregorianCalendarTypes>
+				AlgorithmType:	SolarCalendar	# 0x00000001, 1, <CalendarAlgorithmType>
+				MinSupportedDateTime:	01-1-1 上12时00分00秒	# <DateTime>
+				MaxSupportedDateTime:	99-12-31 上11时59分59秒	# <DateTime>
+				IsReadOnly:	False	# <Boolean>
+		Parent:		# <CultureInfo>
+		TextInfo:	TextInfo - 127	# <TextInfo>
+			# <System.Globalization.TextInfo>
+			ANSICodePage:	0	# 0x0
+			EBCDICCodePage:	0	# 0x0
+			LCID:	127	# 0x7F
+			ListSeparator:	,	# Length=1 (0x1)
+			MacCodePage:	0	# 0x0
+			OEMCodePage:	0	# 0x0
+			CultureName:		# Length=0 (0x0)
+			IsReadOnly:	False	# <Boolean>
+			IsRightToLeft:	False	# <Boolean>
+		ThreeLetterISOLanguageName:	IVL	# Length=3 (0x3)
+		ThreeLetterWindowsLanguageName:	IVL	# Length=3 (0x3)
+		TwoLetterISOLanguageName:	iv	# Length=2 (0x2)
+		UseUserOverride:	False	# <Boolean>
+		CompareInfo:	CompareInfo - 127	# <CompareInfo>
+			# <System.Globalization.CompareInfo>
+			LCID:	127	# 0x7F
+			Name:	(null)
+		IsNeutralCulture:	False	# <Boolean>
+		NumberFormat:	System.Globalization.NumberFormatInfo	# <NumberFormatInfo>
+			# <System.Globalization.NumberFormatInfo>
+			CurrencyDecimalDigits:	2	# 0x2
+			CurrencyDecimalSeparator:	.	# Length=1 (0x1)
+			CurrencyGroupSeparator:	,	# Length=1 (0x1)
+			CurrencyGroupSizes:	System.Int32[]	# Length=1 (0x1)
+				# <System.Int32[]>
+				[0]:	3	# 0x3
+			CurrencyNegativePattern:	0	# 0x0
+			CurrencyPositivePattern:	0	# 0x0
+			CurrencySymbol:	¤	# Length=1 (0x1)
+			IsReadOnly:	False	# <Boolean>
+			NaNSymbol:	NaN	# Length=3 (0x3)
+			NativeDigits:	System.String[]	# Length=10 (0xA)
+				# <System.String[]>
+				[0]:	0	# Length=1 (0x1)
+				[1]:	1	# Length=1 (0x1)
+				[2]:	2	# Length=1 (0x1)
+				[3]:	3	# Length=1 (0x1)
+				[4]:	4	# Length=1 (0x1)
+				[5]:	5	# Length=1 (0x1)
+				[6]:	6	# Length=1 (0x1)
+				[7]:	7	# Length=1 (0x1)
+				[8]:	8	# Length=1 (0x1)
+				[9]:	9	# Length=1 (0x1)
+			DigitSubstitution:	None	# 0x00000001, 1, <DigitShapes>
+			NegativeInfinitySymbol:	-Infinity	# Length=9 (0x9)
+			NegativeSign:	-	# Length=1 (0x1)
+			NumberDecimalDigits:	2	# 0x2
+			NumberDecimalSeparator:	.	# Length=1 (0x1)
+			NumberGroupSeparator:	,	# Length=1 (0x1)
+			NumberGroupSizes:	System.Int32[]	# Length=1 (0x1)
+				# <System.Int32[]>
+				[0]:	3	# 0x3
+			NumberNegativePattern:	1	# 0x1
+			PercentDecimalDigits:	2	# 0x2
+			PercentDecimalSeparator:	.	# Length=1 (0x1)
+			PercentGroupSeparator:	,	# Length=1 (0x1)
+			PercentGroupSizes:	System.Int32[]	# Length=1 (0x1)
+				# <System.Int32[]>
+				[0]:	3	# 0x3
+			PercentNegativePattern:	0	# 0x0
+			PercentPositivePattern:	0	# 0x0
+			PercentSymbol:	%	# Length=1 (0x1)
+			PerMilleSymbol:	‰	# Length=1 (0x1)
+			PositiveInfinitySymbol:	Infinity	# Length=8 (0x8)
+			PositiveSign:	+	# Length=1 (0x1)
+		DateTimeFormat:	System.Globalization.DateTimeFormatInfo	# <DateTimeFormatInfo>
+			# <System.Globalization.DateTimeFormatInfo>
+			IsReadOnly:	False	# <Boolean>
+			AbbreviatedDayNames:	System.String[]	# Length=7 (0x7)
+				# <System.String[]>
+				[0]:	Sun	# Length=3 (0x3)
+				[1]:	Mon	# Length=3 (0x3)
+				[2]:	Tue	# Length=3 (0x3)
+				[3]:	Wed	# Length=3 (0x3)
+				[4]:	Thu	# Length=3 (0x3)
+				[5]:	Fri	# Length=3 (0x3)
+				[6]:	Sat	# Length=3 (0x3)
+			AbbreviatedMonthNames:	System.String[]	# Length=13 (0xD)
+				# <System.String[]>
+				[0]:	Jan	# Length=3 (0x3)
+				[1]:	Feb	# Length=3 (0x3)
+				[2]:	Mar	# Length=3 (0x3)
+				[3]:	Apr	# Length=3 (0x3)
+				[4]:	May	# Length=3 (0x3)
+				[5]:	Jun	# Length=3 (0x3)
+				[6]:	Jul	# Length=3 (0x3)
+				[7]:	Aug	# Length=3 (0x3)
+				[8]:	Sep	# Length=3 (0x3)
+				[9]:	Oct	# Length=3 (0x3)
+				[10]:	Nov	# Length=3 (0x3)
+				[11]:	Dec	# Length=3 (0x3)
+				[12]:		# Length=0 (0x0)
+			DayNames:	System.String[]	# Length=7 (0x7)
+				# <System.String[]>
+				[0]:	Sunday	# Length=6 (0x6)
+				[1]:	Monday	# Length=6 (0x6)
+				[2]:	Tuesday	# Length=7 (0x7)
+				[3]:	Wednesday	# Length=9 (0x9)
+				[4]:	Thursday	# Length=8 (0x8)
+				[5]:	Friday	# Length=6 (0x6)
+				[6]:	Saturday	# Length=8 (0x8)
+			MonthNames:	System.String[]	# Length=13 (0xD)
+				# <System.String[]>
+				[0]:	January	# Length=7 (0x7)
+				[1]:	February	# Length=8 (0x8)
+				[2]:	March	# Length=5 (0x5)
+				[3]:	April	# Length=5 (0x5)
+				[4]:	May	# Length=3 (0x3)
+				[5]:	June	# Length=4 (0x4)
+				[6]:	July	# Length=4 (0x4)
+				[7]:	August	# Length=6 (0x6)
+				[8]:	September	# Length=9 (0x9)
+				[9]:	October	# Length=7 (0x7)
+				[10]:	November	# Length=8 (0x8)
+				[11]:	December	# Length=8 (0x8)
+				[12]:		# Length=0 (0x0)
+			AMDesignator:	AM	# Length=2 (0x2)
+			PMDesignator:	PM	# Length=2 (0x2)
+			DateSeparator:	/	# Length=1 (0x1)
+			TimeSeparator:	:	# Length=1 (0x1)
+			LongDatePattern:	dddd, dd MMMM yyyy	# Length=18 (0x12)
+			ShortDatePattern:	MM/dd/yyyy	# Length=10 (0xA)
+			ShortTimePattern:	HH:mm	# Length=5 (0x5)
+			LongTimePattern:	HH:mm:ss	# Length=8 (0x8)
+			MonthDayPattern:	MMMM dd	# Length=7 (0x7)
+			YearMonthPattern:	yyyy MMMM	# Length=9 (0x9)
+			FullDateTimePattern:	dddd, dd MMMM yyyy HH:mm:ss	# Length=27 (0x1B)
+			FirstDayOfWeek:	Sunday	# 0x00000000, 0, <DayOfWeek>
+			Calendar:	System.Globalization.GregorianCalendar	# <GregorianCalendar>
+				# <System.Globalization.GregorianCalendar>
+				Eras:	System.Int32[]	# Length=1 (0x1)
+					# <System.Int32[]>
+					[0]:	1	# 0x1
+				TwoDigitYearMax:	2029	# 0x7ED
+				CalendarType:	Localized	# 0x00000001, 1, <GregorianCalendarTypes>
+				AlgorithmType:	SolarCalendar	# 0x00000001, 1, <CalendarAlgorithmType>
+				MinSupportedDateTime:	01-1-1 上12时00分00秒	# <DateTime>
+				MaxSupportedDateTime:	99-12-31 上11时59分59秒	# <DateTime>
+				IsReadOnly:	False	# <Boolean>
+			CalendarWeekRule:	FirstDay	# 0x00000000, 0, <CalendarWeekRule>
+			RFC1123Pattern:	"ddd, dd MMM yyyy HH\':\'mm\':\'ss \'GMT\'"	# Length=35 (0x23)
+			SortableDateTimePattern:	"yyyy\'-\'MM\'-\'dd\'T\'HH\':\'mm\':\'ss"	# Length=29 (0x1D)
+			UniversalSortableDateTimePattern:	"yyyy\'-\'MM\'-\'dd HH\':\'mm\':\'ss\'Z\'"	# Length=30 (0x1E)
+			AbbreviatedMonthGenitiveNames:	System.String[]	# Length=13 (0xD)
+				# <System.String[]>
+				[0]:	Jan	# Length=3 (0x3)
+				[1]:	Feb	# Length=3 (0x3)
+				[2]:	Mar	# Length=3 (0x3)
+				[3]:	Apr	# Length=3 (0x3)
+				[4]:	May	# Length=3 (0x3)
+				[5]:	Jun	# Length=3 (0x3)
+				[6]:	Jul	# Length=3 (0x3)
+				[7]:	Aug	# Length=3 (0x3)
+				[8]:	Sep	# Length=3 (0x3)
+				[9]:	Oct	# Length=3 (0x3)
+				[10]:	Nov	# Length=3 (0x3)
+				[11]:	Dec	# Length=3 (0x3)
+				[12]:		# Length=0 (0x0)
+			MonthGenitiveNames:	System.String[]	# Length=13 (0xD)
+				# <System.String[]>
+				[0]:	January	# Length=7 (0x7)
+				[1]:	February	# Length=8 (0x8)
+				[2]:	March	# Length=5 (0x5)
+				[3]:	April	# Length=5 (0x5)
+				[4]:	May	# Length=3 (0x3)
+				[5]:	June	# Length=4 (0x4)
+				[6]:	July	# Length=4 (0x4)
+				[7]:	August	# Length=6 (0x6)
+				[8]:	September	# Length=9 (0x9)
+				[9]:	October	# Length=7 (0x7)
+				[10]:	November	# Length=8 (0x8)
+				[11]:	December	# Length=8 (0x8)
+				[12]:		# Length=0 (0x0)
+			NativeCalendarName:		# Length=0 (0x0)
+			ShortestDayNames:	System.String[]	# Length=7 (0x7)
+				# <System.String[]>
+				[0]:	Su	# Length=2 (0x2)
+				[1]:	Mo	# Length=2 (0x2)
+				[2]:	Tu	# Length=2 (0x2)
+				[3]:	We	# Length=2 (0x2)
+				[4]:	Th	# Length=2 (0x2)
+				[5]:	Fr	# Length=2 (0x2)
+				[6]:	Sa	# Length=2 (0x2)
+		DisplayName:	Invariant Language (Invariant Country)	# Length=38 (0x26)
+		EnglishName:	Invariant Language (Invariant Country)	# Length=38 (0x26)
+		IsReadOnly:	False	# <Boolean>
+	Flags:	PublicKey	# 0x00000001, 1, <AssemblyNameFlags>
+	FullName:	zinfotoolsf, Version=1.0.5048.37633, Culture=neutral, PublicKeyToken=null	# Length=73 (0x49)
+	HashAlgorithm:	SHA1	# 0x00008004, 32772, <AssemblyHashAlgorithm>
+	KeyPair:	(null)
+	Version:	1.0.5048.37633	# <Version>
+		# <System.Version>
+		Build:	5048	# 0x13B8
+		Major:	1	# 0x1
+		Minor:	0	# 0x0
+		Revision:	37633	# 0x9301
+		MajorRevision:	0	# 0x0
+		MinorRevision:	-27903	# 0x9301
+	VersionCompatibility:	SameMachine	# 0x00000001, 1, <AssemblyVersionCompatibility>
+IntPtr:
+	# <System.IntPtr>
+	# sizeof:	8
+	Size:	8	# 0x8
+	Zero:	0	# <IntPtr>
