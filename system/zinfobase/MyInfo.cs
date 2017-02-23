@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 using System.Reflection;
-using zyllibcs.text;
+using ZylLib.Text;
 
 namespace zinfobase {
 	/// <summary>
