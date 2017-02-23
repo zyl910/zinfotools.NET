@@ -1,7 +1,7 @@
 using System;
 //using System.Collections.Generic;
 //using System.Text;
-using zyllibcs.text;
+using ZylLib.Text;
 
 namespace zinfoculture {
 	/// <summary>
