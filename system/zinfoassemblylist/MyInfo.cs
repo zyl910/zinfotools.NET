@@ -2,8 +2,8 @@
 using System.Collections.Generic;
 using System.Text;
 using System.Reflection;
-using zyllibcs.system;
-using zyllibcs.text;
+using ZylLib.System;
+using ZylLib.Text;
 
 namespace zinfoassemblylist {
 	/// <summary>

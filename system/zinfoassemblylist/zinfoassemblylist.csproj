@@ -38,9 +38,9 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\..\..\zyllibcs\zyllibcs.csproj">
-      <Project>{B1E5DB93-5A0E-4D61-A69B-42786A0D259A}</Project>
-      <Name>zyllibcs</Name>
+    <ProjectReference Include="..\..\..\ZylLib.NET\Source\ZylLib\ZylLib.Net20.csproj">
+      <Project>{0A57C19C-16BA-4D89-AD09-9F75419F6923}</Project>
+      <Name>ZylLib.Net20</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
