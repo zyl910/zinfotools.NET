@@ -5,7 +5,7 @@ using System.Data;
 using System.Linq;
 using System.Windows;
 
-namespace zinfoassemblyp {
+namespace zinfoassembly_Wpf {
 	/// <summary>
 	/// App.xaml 的交互逻辑
 	/// </summary>

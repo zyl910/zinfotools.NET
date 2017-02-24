@@ -8,8 +8,8 @@
     <ProjectGuid>{B1F9D8F4-A6B5-4926-9E39-16E4BD6D12B5}</ProjectGuid>
     <OutputType>WinExe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>zinfoassemblyp</RootNamespace>
-    <AssemblyName>zinfoassemblyp</AssemblyName>
+    <RootNamespace>zinfoassembly_Wpf</RootNamespace>
+    <AssemblyName>zinfoassembly_Wpf</AssemblyName>
     <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
     <TargetFrameworkProfile>Client</TargetFrameworkProfile>
     <FileAlignment>512</FileAlignment>
@@ -22,7 +22,7 @@
     <DebugType>full</DebugType>
     <Optimize>false</Optimize>
     <OutputPath>bin\Debug\</OutputPath>
-    <DefineConstants>TRACE;DEBUG;DOTNET3;DOTNET3A;DOTNET4</DefineConstants>
+    <DefineConstants>TRACE;DEBUG;NET40</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
@@ -31,14 +31,14 @@
     <DebugType>pdbonly</DebugType>
     <Optimize>true</Optimize>
     <OutputPath>bin\Release\</OutputPath>
-    <DefineConstants>TRACE;DOTNET3;DOTNET3A;DOTNET4</DefineConstants>
+    <DefineConstants>TRACE;NET40</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|AnyCPU'">
     <DebugSymbols>true</DebugSymbols>
     <OutputPath>bin\Debug\</OutputPath>
-    <DefineConstants>TRACE;DEBUG;DOTNET3;DOTNET3A;DOTNET4</DefineConstants>
+    <DefineConstants>TRACE;DEBUG;NET40</DefineConstants>
     <DebugType>full</DebugType>
     <PlatformTarget>AnyCPU</PlatformTarget>
     <CodeAnalysisLogFile>bin\Debug\zinfoassemblyp.exe.CodeAnalysisLog.xml</CodeAnalysisLogFile>
@@ -54,7 +54,7 @@
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|AnyCPU'">
     <OutputPath>bin\Release\</OutputPath>
-    <DefineConstants>TRACE;DOTNET3;DOTNET3A;DOTNET4</DefineConstants>
+    <DefineConstants>TRACE;NET40</DefineConstants>
     <Optimize>true</Optimize>
     <DebugType>pdbonly</DebugType>
     <PlatformTarget>AnyCPU</PlatformTarget>
@@ -128,9 +128,9 @@
     <AppDesigner Include="Properties\" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\..\..\zyllibcs\zyllibcs4.csproj">
-      <Project>{B1E5DB93-5A0E-4D61-A69B-42786A0D259A}</Project>
-      <Name>zyllibcs4</Name>
+    <ProjectReference Include="..\..\..\ZylLib.NET\Source\ZylLib\ZylLib.Net40.csproj">
+      <Project>{0A57C19C-16BA-4D89-AD09-9F75419F6923}</Project>
+      <Name>ZylLib.Net40</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

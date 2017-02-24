@@ -15,11 +15,11 @@ using System.Windows.Navigation;
 using System.Windows.Shapes;
 using System.Reflection;
 //using System.Windows.Forms;
-using zyllibcs.system;
-using zyllibcs.text;
+using ZylLib.System;
+using ZylLib.Text;
 using zinfoassembly;
 
-namespace zinfoassemblyp {
+namespace zinfoassembly_Wpf {
 	/// <summary>
 	/// MainWindow.xaml 的交互逻辑
 	/// </summary>

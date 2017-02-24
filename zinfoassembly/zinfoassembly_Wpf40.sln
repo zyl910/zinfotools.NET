@@ -1,9 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2010
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "zinfoassemblyp4", "zinfoassemblyp\zinfoassemblyp4.csproj", "{B1F9D8F4-A6B5-4926-9E39-16E4BD6D12B5}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "zinfoassembly_Wpf40", "zinfoassembly_Wpf\zinfoassembly_Wpf40.csproj", "{B1F9D8F4-A6B5-4926-9E39-16E4BD6D12B5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "zyllibcs4", "..\..\zyllibcs\zyllibcs4.csproj", "{B1E5DB93-5A0E-4D61-A69B-42786A0D259A}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ZylLib.Net40", "..\..\ZylLib.NET\Source\ZylLib\ZylLib.Net40.csproj", "{0A57C19C-16BA-4D89-AD09-9F75419F6923}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,10 +15,10 @@ Global
 		{B1F9D8F4-A6B5-4926-9E39-16E4BD6D12B5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B1F9D8F4-A6B5-4926-9E39-16E4BD6D12B5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B1F9D8F4-A6B5-4926-9E39-16E4BD6D12B5}.Release|Any CPU.Build.0 = Release|Any CPU
-		{B1E5DB93-5A0E-4D61-A69B-42786A0D259A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{B1E5DB93-5A0E-4D61-A69B-42786A0D259A}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{B1E5DB93-5A0E-4D61-A69B-42786A0D259A}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{B1E5DB93-5A0E-4D61-A69B-42786A0D259A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0A57C19C-16BA-4D89-AD09-9F75419F6923}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0A57C19C-16BA-4D89-AD09-9F75419F6923}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0A57C19C-16BA-4D89-AD09-9F75419F6923}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0A57C19C-16BA-4D89-AD09-9F75419F6923}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
