@@ -2,8 +2,8 @@
 using System.Collections.Generic;
 using System.Reflection;
 using System.Text;
-using zyllibcs.system;
-using zyllibcs.text;
+using ZylLib.System;
+using ZylLib.Text;
 #if (NETFX_CORE)
 #endif
 
@@ -74,7 +74,7 @@ namespace zinfoassembly {
 		/// <summary>
 		/// 程序集词典.
 		/// </summary>
-		private static Dictionary<string, Assembly> m_AssemblyDictionary = null;
+		private static Dictionary<string, Assembly> m_AssemblyDictionary = new Dictionary<string, Assembly>(StringComparer.OrdinalIgnoreCase);
 
 		/// <summary>
 		/// 程序集列表.
@@ -106,7 +106,11 @@ namespace zinfoassembly {
 		private static void AssemblyDictionaryAddByType(Type tp) {
 			if (null == tp) return;
 			if (null == m_AssemblyDictionary) return;
+#if (NETFX_CORE)
 			Assembly ass = tp.GetTypeInfo().Assembly;
+#else
+			Assembly ass = tp.Assembly;
+#endif
 			m_AssemblyDictionary.Add(ass.FullName, ass);
 		}
 

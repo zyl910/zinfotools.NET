@@ -8,11 +8,11 @@ using System.IO;
 using System.Reflection;
 using System.Text;
 using System.Windows.Forms;
-using zyllibcs.system;
-using zyllibcs.text;
+using ZylLib.System;
+using ZylLib.Text;
 using zinfoassembly;
 
-namespace zinfoassemblyf {
+namespace zinfoassembly_Wform {
 	public partial class FrmZInfoAssembly : Form {
 		/// <summary>
 		/// 旧的程序集名称.

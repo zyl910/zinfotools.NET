@@ -5,12 +5,12 @@ using System.Runtime.InteropServices;
 // 有关程序集的常规信息通过下列属性集
 // 控制。更改这些属性值可修改
 // 与程序集关联的信息。
-[assembly: AssemblyTitle("zinfoassemblyf")]
+[assembly: AssemblyTitle("zinfoassembly_Wform")]
 [assembly: AssemblyDescription("Assembly infos")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("zyl910")]
 [assembly: AssemblyProduct("zinfoassembly")]
-[assembly: AssemblyCopyright("Copyright (C) zyl910 2013")]
+[assembly: AssemblyCopyright("Copyright (C) zyl910 2001~2017")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 

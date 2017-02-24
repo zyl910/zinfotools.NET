@@ -7,14 +7,14 @@
     <ProjectGuid>{4D9B7965-1F7B-4D52-97DB-7855E9CEFCFE}</ProjectGuid>
     <OutputType>WinExe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>zinfoassemblyf</RootNamespace>
-    <AssemblyName>zinfoassemblyf</AssemblyName>
+    <RootNamespace>zinfoassembly_Wform</RootNamespace>
+    <AssemblyName>zinfoassembly_Wform</AssemblyName>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
     <DebugType>full</DebugType>
     <Optimize>false</Optimize>
-    <OutputPath>bin\Debug\</OutputPath>
+    <OutputPath>bin\Debug\Wform20\</OutputPath>
     <DefineConstants>DEBUG;TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
@@ -22,7 +22,7 @@
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <DebugType>pdbonly</DebugType>
     <Optimize>true</Optimize>
-    <OutputPath>bin\Release\</OutputPath>
+    <OutputPath>bin\Release\Wform20\</OutputPath>
     <DefineConstants>TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
@@ -71,9 +71,9 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\..\..\zyllibcs\zyllibcs.csproj">
-      <Project>{B1E5DB93-5A0E-4D61-A69B-42786A0D259A}</Project>
-      <Name>zyllibcs</Name>
+    <ProjectReference Include="..\..\..\ZylLib.NET\Source\ZylLib\ZylLib.Net20.csproj">
+      <Project>{0A57C19C-16BA-4D89-AD09-9F75419F6923}</Project>
+      <Name>ZylLib.Net20</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />

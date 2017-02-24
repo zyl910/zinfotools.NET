@@ -1,4 +1,4 @@
-﻿namespace zinfoassemblyf {
+﻿namespace zinfoassembly_Wform {
 	partial class FrmZInfoAssembly {
 		/// <summary>
 		/// 必需的设计器变量。
